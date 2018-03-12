@@ -12,24 +12,24 @@ int cena;
 
 void set() 
 { 
-cout<<"Ââåäèòå æàíð: "; 
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¶Ð°Ð½Ñ€: "; 
 cin>>janr; 
-cout<<"Ââåäèòå àâòîðà: "; 
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ð²Ñ‚Ð¾Ñ€Ð°: "; 
 cin>>avtor; 
-cout<<"Ââåäèòå íàçâàíèå: "; 
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ: "; 
 cin>>nazvanie; 
-cout<<"Ââåäèòå ãîä èçäàíèÿ: "; 
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð³Ð¾Ð´ Ð¸Ð·Ð´Ð°Ð½Ð¸Ñ: "; 
 cin>>god_izdania; 
-cout<<"Ââåäèòå öåíó: "; 
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ½Ñƒ: "; 
 cin>>cena; 
 } 
 void show() 
 { 
-cout<<"Æàíð: "<<janr<<endl; 
-cout<<"Àâòîð: "<<avtor<<endl; 
-cout<<"Íàçâàíèå : "<<nazvanie<<endl; 
-cout<<"Ãîä èçäàíèÿ: "<<god_izdania<<endl; 
-cout<<"Öåíà: "<<cena<<endl; 
+cout<<"Ð–Ð°Ð½Ñ€: "<<janr<<endl; 
+cout<<"ÐÐ²Ñ‚Ð¾Ñ€: "<<avtor<<endl; 
+cout<<"ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ : "<<nazvanie<<endl; 
+cout<<"Ð“Ð¾Ð´ Ð¸Ð·Ð´Ð°Ð½Ð¸Ñ: "<<god_izdania<<endl; 
+cout<<"Ð¦ÐµÐ½Ð°: "<<cena<<endl; 
 } 
 
 }; 
